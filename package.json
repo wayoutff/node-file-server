@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-simple-file-server",
+  "version": "0.0.1",
+  "description": "Simple Express file server",
+  "main": "server.js",
+  "type": "module",
+  "author": "@wayoutff",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
